@@ -65,7 +65,7 @@ contract VINIToken is ERC20Interface, SafeMath {
         _totalSupply = 100000;
         balances[0x67bC92be2D2a5a673CE0baa9e7cC2d1859d2C8a4] = _totalSupply;
         emit Transfer(address(0), 0x67bC92be2D2a5a673CE0baa9e7cC2d1859d2C8a4, _totalSupply);
-        // Aviso - utilizei a sepolia testnet da ETH
+        // Created by sepolia testnet of ETH
     }
  
     function totalSupply() public constant returns (uint) {
